@@ -1,0 +1,16 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./app/spider.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "puppeteer": "^2.0.0"
+  }
+}
