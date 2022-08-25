@@ -22,7 +22,7 @@ function formatProgress (current,TOTAL_PAGE) {
     let allPost = []
     for(let i = 0;i<Number(TOTAL_PAGE);i++){
         if(i>0){
-            const next = await page.$('.extend.next.waves-effect.waves-button')
+            const next = await page.$('.extend.next')
             next.click()
             await page.waitForNavigation()
         }
